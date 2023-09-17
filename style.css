@@ -1,0 +1,884 @@
+/* Reset some default browser styles */
+body,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a basic font for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: auto;
+    z-index: 10 !important;
+    background: #0D1117;
+}
+
+/* Set a default background color and text color */
+body {
+    color: #e4e4e4;
+    width: 100vw;
+    margin: 0px;
+    height: 100vh;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    padding: .3vw 0px;
+}
+
+/* Style paragraphs */
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Add some basic styling to links */
+a {
+    color: #ABABAB;
+    text-decoration: none;
+}
+
+.top-tab {
+    width: 100vw;
+    height: 6rem;
+    background: #161B22;
+}
+
+.navigation a {
+    font-size: 1rem;
+    transition: 0.3s;
+    padding: 0vw 1vw;
+}
+
+.Contact button {
+    outline: 1px solid #204980;
+    border: none;
+    padding: .75rem 2rem;
+    background: #121D2F;
+    color: #ABABAB;
+    font-size: 1rem;
+    transition: 0.7s;
+    border-radius: .3rem;
+}
+
+.Contact a {
+    outline: 1px solid #204980;
+    border: none;
+    padding: .75rem 2rem;
+    background: #121D2F;
+    color: #ABABAB;
+    font-size: 1rem;
+    transition: 0.7s;
+    border-radius: .3rem;
+}
+
+.tab-inner {
+    display: flex;
+    margin: auto;
+    padding: 2rem;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a.current {
+    color: white;
+}
+
+.logo img {
+    width: 2rem;
+    transition: 0.3s;
+}
+
+.top-info2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2vw !important;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70vw;
+    flex-direction: row;
+    padding-bottom: 15vh !important;
+}
+
+.top-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vw !important;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70vw;
+    flex-direction: row;
+}
+
+.top-info p {
+    text-align: left;
+    font-size: 1.5vw;
+    margin-top: 0.8vh;
+    width: 25vw;
+    color: #d7d7d7;
+}
+
+.top-info h1 {
+    font-size: 2.4vw;
+    text-align: inherit;
+}
+
+button#Templates {
+    background: #161B22;
+    padding: 1vh 3.5vw;
+    color: #FFFDFA;
+    font-size: 1vw;
+    margin: 0px 1vw 0vw 0vw;
+    outline: 0.16rem solid #30363D;
+}
+
+.buttons button {
+    padding: 0.5rem 1.7rem;
+    border-radius: .2rem;
+    border: none;
+    transition: 0.3s;
+    font-size: 1vw !important;
+}
+
+.buttons a {
+    padding: 0.5rem 1.7rem;
+    border-radius: .2rem;
+    border: none;
+    transition: 0.3s;
+    font-size: 1vw !important;
+}
+
+button#Contact {
+    background: #393F48;
+    color: #ffffff;
+    padding: 1vh 3.5vw;
+    font-size: 1rem;
+    outline: 0.15rem solid #333;
+}
+
+a#Contact {
+    background: #393F48;
+    color: #ffffff;
+    padding: 1vh 3.5vw;
+    display: flex;
+    font-size: 1rem;
+    outline: 0.15rem solid #333;
+    align-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    width: 25vw;
+    height: 5vh;
+    padding: 4vh .001vw;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.info_first {
+    margin: auto;
+    width: 60vw;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.side-info {
+    width: 30em;
+    text-align: left;
+}
+
+.info_first h1 {
+    text-align: left !important;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    outline: 0.16rem solid #717d8e !important;
+}
+
+.logo img:hover {
+    transform: rotate(120deg);
+    cursor: pointer;
+    color: #2F81F7;
+}
+
+.navigation a:hover {
+    cursor: pointer;
+    color: white !important;
+}
+
+.Contact button:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.Contact a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.squares {
+    display: flex;
+    width: 65vw;
+    margin-top: 10vh !important;
+    margin: auto;
+    justify-content: space-around;
+    padding-bottom: 10vh;
+    display: none;
+}
+
+.square {
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 1vh;
+    height: 64.5vh;
+    align-content: flex-start;
+    justify-content: center;
+    border-radius: .4vw;
+}
+
+h1.sqrTitle {
+    font-size: 30px;
+    padding-bottom: 2.5vh;
+    padding-top: 3vh;
+}
+
+p.sqrDesc {
+    font-size: .9vw;
+    width: 80%;
+    padding-bottom: 3vh;
+}
+
+img.sqrIMG1 {
+    width: 9.8vw;
+}
+
+img.sqrIMG2 {
+    width: 9.8vw;
+}
+
+img.sqrIMG3 {
+    width: 9.8vw;
+}
+
+.square a {
+    text-decoration: underline;
+    color: white;
+    margin-bottom: 2vh;
+    transition: 0.3s;
+}
+
+.learnMore {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 6vw;
+    font-size: .8vw;
+    margin-right: 18vh;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.slider-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    margin: 0px auto;
+    background: #121D2F;
+    cursor: pointer;
+    outline: 3px solid #204980;
+    font-size: 2rem;
+    padding: 0px 20px;
+    color: #2F81F7;
+    border-radius: 0px 0px 15px 0px;
+}
+
+.prev-button {
+    background: #121D2F;
+    padding: 0px 20px;
+    border-radius: 0px 15px 0px 0px;
+}
+
+.cards {
+    overflow: hidden;
+    height: 69.2vh;
+    width: 20.36vw;
+    border: 3px solid #30363D;
+    position: relative;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0D1117;
+    display: flex;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.lsCard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0D1117;
+    display: flex;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.slidebuttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: min-content;
+    padding-left: 1px;
+    height: 69.2vh;
+    align-content: stretch;
+}
+
+.square {
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 1vh;
+    height: 64.5vh;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.lssquare {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+h1.sqrTitle {
+    font-size: 1.5vw;
+    padding-top: 3vh;
+    color: #d7d7d7;
+    font-weight: 100;
+}
+
+p.sqrDesc {
+    font-size: .9vw;
+    width: 80%;
+    padding-bottom: 3vh;
+    color: #DFDFDF;
+}
+
+img.sqrIMG1 {
+    width: 9.8vw;
+    height: 32.6vh;
+}
+
+.square a {
+    text-decoration: underline;
+    color: white;
+    margin-bottom: 2vh;
+    transition: 0.3s;
+}
+
+.learnMore {
+    display: flex;
+    align-content: center;
+    width: 6vw;
+    font-size: .8vw;
+    margin-right: 18vh;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.square a:hover {
+    cursor: pointer;
+    color: #dadada;
+}
+
+.slider-button svg:hover {
+    border: #2f81f7;
+}
+
+.slider-button svg {
+    transition: .2s;
+}
+
+.slider-button svg:hover {
+    opacity: 0.5;
+}
+
+.inspiredBy h1 {
+    color: #393F48;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.inspiredBy {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.slidebuttons button {
+    transition: 0.3s;
+}
+
+.slidebuttons button:hover {
+    background: #161b22;
+}
+
+.demoSQR {
+    width: 66vw;
+    height: 30.5vw;
+    display: flex;
+    margin-top: 3vh;
+}
+
+
+.imgHLDER img {
+    width: 54.45vw;
+    outline: 3px solid #30363D;
+    height: 30.5vw;
+    margin-bottom: 3vh;
+}
+
+
+
+.rightSQRBTTN,
+.leftSQRBTTN {
+    width: 111px;
+    background: #121D2F;
+    outline: 3px solid #204980;
+    border: none;
+}
+
+.leftSQRBTTN {
+
+    border-radius: 0.7vw 0vw 0vw 0.7vw;
+}
+
+.rightSQRBTTN {
+
+    border-radius: 0vw 0.7vw 0.7vw 0vw;
+}
+
+.rightSQRBTTN,
+.leftSQRBTTN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.rightSQRBTTN:hover,
+.leftSQRBTTN:hover {
+    background: #161b22;
+    cursor: pointer;
+}
+
+
+.impINFO img {
+    width: 40vw;
+}
+
+.impINFO {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4vh !important;
+    padding-top: 14vh !important;
+}
+
+.imgHLDER h1 {
+    text-align: left;
+}
+
+.imgHLDER p {
+    width: 12vw;
+}
+
+.imgHLDER a {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.imgHLDER a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 780px) {
+    .top-info h1 {
+        font-size: 5.4vw;
+    }
+
+    .inspiredBy h1 {
+        font-size: 4.5vw;
+        margin-bottom: 3vh;
+    }
+
+    .inspiredBy {
+        display: none;
+    }
+
+    .top-info {
+        justify-content: left;
+    }
+
+    .square {
+        width: 40vw;
+    }
+
+    .top-info p {
+        margin-top: 2vh;
+        font-size: 3vw;
+        width: 65vw
+    }
+
+    .buttons button {
+        font-size: 2.5vw !important;
+        margin-left: 0.5vw;
+    }
+
+    .cards {
+
+        height: 100vh;
+        width: 62.36vw;
+    }
+
+
+    .slidebuttons {
+        height: 100vh;
+    }
+
+    img.sqrIMG1 {
+        height: 42vh;
+        width: 35vw;
+    }
+
+    .learnMore {
+        font-size: 3vw;
+        width: 16vw;
+    }
+
+    .learnMore a {
+        width: 20vw;
+    }
+
+    .demoSQR {
+        width: 73vw;
+        height: 30.5vw;
+        display: flex;
+        margin-top: 3vh;
+    }
+}
+
+.IMGinfo {
+    margin-top: 5vh;
+}
+
+.banner-tab {
+    padding: 0.7vw;
+    background: #121d2f;
+    border-bottom: 1px solid #204980;
+    text-align: center;
+}
+
+svg#Capa_1 {
+    width: .9vw;
+    color: white;
+    fill: #d9d9d9;
+    transition: 0.2s;
+    height: 0.8vw;
+    position: absolute;
+    right: 1vw;
+}
+
+svg#Capa_1:hover {
+    cursor: pointer;
+    fill: white;
+}
+
+
+
+.mobileMenu {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+
+    .mobile-content {
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .top-info2 {
+        display: none;
+    }
+
+    .impINFO {
+        padding-top: 10vw !important;
+    }
+
+    .impINFO img {
+        width: 80vw;
+    }
+
+    .buttons {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttons a {
+        font-size: 3.5vw !important;
+        padding: 4vw 7vw !important;
+        border-radius: 3vw;
+    }
+
+    .buttons button {
+        font-size: 3.5vw !important;
+        margin: 0px 3vw 0vw 0vw !important;
+        padding: 3.5vw 7vw !important;
+        border-radius: 3vw !important;
+    }
+
+    .buttons {
+        padding-top: 2vh;
+    }
+
+    .top-info h1 {
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    .top-info p {
+        font-size: 5vw;
+        width: 74vw;
+        text-align: center;
+    }
+
+    svg#Capa_1 {
+        display: none;
+    }
+
+
+    .banner-tab {
+        font-size: 3.9vw;
+        padding: 1vh 0px;
+    }
+
+    .mobileMenu {
+        display: block;
+    }
+
+    .navigation,
+    .Contact {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+    }
+
+    .menu-toggle {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        margin: 3px 0;
+        transition: 0.4s;
+    }
+
+    .nav {
+        display: flex;
+        list-style: none;
+    }
+
+    .nav li {
+        margin-right: 20px;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+    .nav a:hover {
+        color: #f1f1f1;
+    }
+}
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        z-index: 1;
+    }
+
+    .nav.active {
+        display: flex;
+    }
+
+    .nav li {
+        margin: 10px 0;
+    }
+}
+
+.cards.landscape {
+    width: 56vw;
+    height: 58vh;
+}
+
+.lscards {
+    overflow: hidden;
+    height: 57.9vh;
+    width: 53.36vw;
+    outline: 3px solid #30363D;
+    position: relative;
+}
+
+.landscape img {
+    width: 53vw;
+    height: 58vh;
+}
+
+.imgtitle,
+.imgdesc,
+.imglink {
+    transition: 0.3s;
+    text-align: left;
+}
+
+.mobile-content {
+    display: none;
+}
+
+
+.mobile-content img {
+    width: 83vw;
+}
+
+img.template-content-image {
+    width: 718px;
+}
+
+.template-content-info h1 {
+    color: #CACACA;
+    font-weight: 700;
+    text-align: left;
+}
+
+.template-content-info p {
+    width: 21vw;
+    color: #AFAFAF;
+    font-size: 1.2vw;
+}
+
+.template-content-info button {
+    border: none;
+    background: none;
+    outline: 1px solid #515155;
+    padding: .7vw 2vw;
+    border-radius: 3vw;
+    color: white;
+    transition: 0.3s;
+    display: flex;
+    margin-top: 2vh;
+    justify-content: space-around;
+    font-size: .9vw;
+    align-content: center;
+    align-items: center;
+}
+
+.template-content-holder {
+    display: flex;
+    width: 100vw;
+    padding: 3vw 0vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.template-content-info {
+    width: 17vw;
+}
+
+.template-content {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 65vw;
+    margin: 5vh 0px;
+}
+
+.template-content-info button svg {
+    padding-left: 0.4vw;
+}
+
+.template-content-info button:hover {
+    outline: 1px solid #c0c0c0;
+    cursor: pointer;
+}
